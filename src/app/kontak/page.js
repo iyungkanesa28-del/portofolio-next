@@ -16,7 +16,7 @@ export default function Kontak() {
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3 items-stretch w-full">
         
         {/* KOLOM KIRI: FORMULIR */}
-        <div className="md:col-span-2 bg-white p-6 md:p-8 rounded-xl border border-gray-200 shadow-sm w-full">
+        <div className="md:col-span-2 bg-white dark:bg-gray-800  p-6 md:p-8 rounded-xl border border-gray-200 shadow-sm w-full">
           <form className="space-y-5 w-full">
             
             <div>
@@ -29,7 +29,7 @@ export default function Kontak() {
                 name="nama" 
                 placeholder="Contoh: Budi Santoso" 
                 required 
-                className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all" 
+                className="w-full rounded-lg border border-gray-300 bg-white dark:bg-gray-800  px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all" 
               />
             </div>
 
@@ -43,7 +43,7 @@ export default function Kontak() {
                 name="email" 
                 placeholder="nama@gmail.com" 
                 required 
-                className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all" 
+                className="w-full rounded-lg border border-gray-300 bg-white dark:bg-gray-800  px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all" 
               />
             </div>
 
@@ -57,7 +57,7 @@ export default function Kontak() {
                 name="nohp" 
                 placeholder="081234567890" 
                 required 
-                className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all" 
+                className="w-full rounded-lg border border-gray-300 bg-white dark:bg-gray-800  px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all" 
               />
             </div>
 
@@ -69,7 +69,7 @@ export default function Kontak() {
                 id="keperluan" 
                 name="keperluan" 
                 required 
-                className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-slate-700 transition-all"
+                className="w-full rounded-lg border border-gray-300 bg-white dark:bg-gray-800  px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-slate-700 transition-all"
               >
                 <option value="">-- Pilih keperluan --</option>
                 <option value="kerjasama">Kerjasama / Proyek</option>
@@ -87,7 +87,7 @@ export default function Kontak() {
                 rows="5" 
                 placeholder="Tulis pesanmu di sini..." 
                 required 
-                className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all"
+                className="w-full rounded-lg border border-gray-300 bg-white dark:bg-gray-800  px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all"
               ></textarea>
             </div>
 
@@ -103,7 +103,7 @@ export default function Kontak() {
         </div>
 
         {/* KOLOM KANAN: TEMUKAN SAYA */}
-        <div className="bg-white p-6 md:p-8 rounded-xl border border-gray-200 shadow-sm w-full h-full flex flex-col justify-start">
+        <div className="bg-white dark:bg-gray-800  p-6 md:p-8 rounded-xl border border-gray-200 shadow-sm w-full h-full flex flex-col justify-start">
           <h2 className="text-lg font-bold text-slate-900 mb-4">Temukan Saya di</h2>
           <div className="flex flex-col space-y-3 text-sm">
             <a 

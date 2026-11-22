@@ -41,7 +41,7 @@ export default async function DetailProyek({ params }) {
         </p>
       </div>
 
-      <div className="overflow-hidden rounded-xl border border-gray-200 shadow-sm bg-white">
+      <div className="overflow-hidden rounded-xl border border-gray-200 shadow-sm bg-white dark:bg-gray-800 ">
         <Image
           src={item.gambar}
           alt={`Tangkapan layar ${item.judul}`}
@@ -53,7 +53,7 @@ export default async function DetailProyek({ params }) {
       </div>
 
       {/* Box Deskripsi Proyek agar sejajar rapi */}
-      <div className="bg-white p-6 rounded-xl border border-slate-100 shadow-sm space-y-2">
+      <div className="bg-white dark:bg-gray-800  p-6 rounded-xl border border-slate-100 shadow-sm space-y-2">
         <h2 className="text-xl font-bold text-utama">Deskripsi Proyek</h2>
         <p className="text-gray-600 leading-relaxed text-sm md:text-base">
           {item.deskripsi}
@@ -61,7 +61,7 @@ export default async function DetailProyek({ params }) {
       </div>
 
       {/* Box Fitur Yang Dipelajari */}
-      <div className="bg-white p-6 rounded-xl border border-slate-100 shadow-sm space-y-3">
+      <div className="bg-white dark:bg-gray-800  p-6 rounded-xl border border-slate-100 shadow-sm space-y-3">
         <h2 className="text-xl font-bold text-utama">Yang Saya Pelajari</h2>
         <ul className="list-disc pl-5 space-y-2 text-gray-600 text-sm md:text-base">
            {item.fitur.map((f) => (

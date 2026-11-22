@@ -17,7 +17,7 @@ export default function HalamanKeahlian() {
           <Link
             key={item.slug}
             href={`/keahlian/${item.slug}`}
-            className="block p-6 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md hover:border-blue-500 transition-all group"
+            className="block p-6 bg-white dark:bg-gray-800  dark:bg-gray-800  rounded-xl border border-gray-200 shadow-sm hover:shadow-md hover:border-blue-500 transition-all group"
           >
             <h3 className="text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
               {item.nama}

@@ -30,7 +30,7 @@ export default function Hero({ nama, tagline, onLihatKeahlianClick }) {
           
           <button 
             onClick={onLihatKeahlianClick}
-            className="bg-white border border-gray-300 text-gray-800 px-5 py-2 rounded-lg font-medium text-sm transition hover:bg-gray-50 cursor-pointer"
+            className="bg-white dark:bg-gray-800  border border-gray-300 text-gray-800 dark:textgray-100  dark:textgray-100  px-5 py-2 rounded-lg font-medium text-sm transition hover:bg-gray-50 cursor-pointer"
           >
             Lihat keahlian
           </button>

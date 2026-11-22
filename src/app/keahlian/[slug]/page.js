@@ -28,7 +28,7 @@ export default async function DetailKeahlian({ params }) {
         &larr; Kembali ke daftar keahlian
       </Link>
       
-      <div className="bg-white p-6 md:p-8 rounded-xl border border-gray-200 shadow-sm space-y-4">
+      <div className="bg-white dark:bg-gray-800  dark:bg-gray-800  dark:bg-gray-800  p-6 md:p-8 rounded-xl border border-gray-200 shadow-sm space-y-4">
         <div>
           <h1 className="text-3xl font-extrabold text-slate-900 md:text-4xl">{item.nama}</h1>
           <p className="mt-2 text-sm text-gray-500">

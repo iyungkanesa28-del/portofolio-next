@@ -19,7 +19,7 @@ export default function Tentang() {
      <h1 className="text-3xl font-bold text-utama md:text-4xl">Perkenalan</h1>
 
      {/* Section 2: Tentang Saya */}
-     <section id="tentang-saya" className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 scroll-mt-6">
+     <section id="tentang-saya" className="bg-white dark:bg-gray-800  p-6 rounded-xl shadow-sm border border-slate-100 scroll-mt-6">
        <h2 className="text-xl font-bold text-[#1e293b] mb-3">Tentang Saya</h2>
        <p className="text-slate-600 leading-relaxed text-sm md:text-base">
          Saya tinggal di Malang dan senang mencoba hal baru di dunia teknologi. Saya ingin bisa membuat website yang bermanfaat untuk sekolah dan UMKM di sekitar rumah.
@@ -30,7 +30,7 @@ export default function Tentang() {
      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
        
        {/* Hobi - Diubah menggunakan list-disc biasa agar tanda bullet poin tidak menabrak teks */}
-       <section className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+       <section className="bg-white dark:bg-gray-800  p-6 rounded-xl shadow-sm border border-slate-100">
          <h2 className="text-xl font-bold text-[#1e293b] mb-4">Hobi</h2>
          <ul className="list-disc pl-5 text-slate-600 text-sm md:text-base space-y-2">
            <li>Bermain Gitar</li>
@@ -40,7 +40,7 @@ export default function Tentang() {
        </section>
 
        {/* Cita-Cita */}
-       <section className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+       <section className="bg-white dark:bg-gray-800  p-6 rounded-xl shadow-sm border border-slate-100">
          <h2 className="text-xl font-bold text-[#1e293b] mb-3">Cita-cita</h2>
          <p className="text-slate-600 text-sm md:text-base mb-3">
            Menjadi <span className="font-bold text-[#1e293b]">Youtuber</span>. Langkah yang saya rencanakan:
@@ -53,7 +53,7 @@ export default function Tentang() {
      </div>
 
      {/* Section 6: Jadwal Belajar */}
-     <section className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+     <section className="bg-white dark:bg-gray-800  p-6 rounded-xl shadow-sm border border-slate-100">
        <h2 className="text-xl font-bold text-[#1e293b] mb-5">Jadwal Belajar</h2>
        <div className="overflow-x-auto rounded-lg border border-slate-100">
          <table className="w-full text-left border-collapse text-sm md:text-base">
